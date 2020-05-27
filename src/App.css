@@ -1,0 +1,76 @@
+.page-footer {
+  color: #fff;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+}
+.page-footer ul li a{
+  color: #fff;
+}
+.list-group-item:first-child {
+  padding-top: 0;
+}
+.list-group-item {
+  padding-left: 21px;
+}
+a:hover {
+  text-decoration: none;
+}
+a {
+  color: #eee;
+}
+.list-group {
+  max-height: 325px;
+  overflow-y: scroll;
+}
+
+.list-group:hover {
+  
+}
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #eee;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(207, 207, 207);
+}
+@media (max-width: 768px) {
+  .list-group {
+    max-height: 100%;
+  }
+  .card {
+    margin: 35px 0 75px 0 !important;
+  }
+}
+.item-enter {
+  opacity: 0;
+}
+.item-enter-active {
+  opacity: 1;
+  transition: opacity 500ms ease-in;
+}
+.item-exit {
+  opacity: 1;
+}
+.item-exit-active {
+  opacity: 0;
+  transition: opacity 500ms ease-in;
+}
+.fa-trash, .fa-check-square-o {
+  cursor: pointer;
+}
